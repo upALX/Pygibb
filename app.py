@@ -1,32 +1,30 @@
-keyword_gibbet_value = "banana"
-letters_acerted = ["-","-","-","-","-","-",]
-kick_right_word = False
-when_user_hanged = False
+print('Welcome to the Pygibb!')
 
-print('Hellow! Welcome to Pygibb :D')
-print('You need play a game inserting one letter at a time!')
+gybbed_user = False
+right_kick_word = False
+errors = 0
+secret_word = 'league'.upper()
+right_letters = ["_" for letter in secret_word]
 
-kick_gibbet_value = input('Please, insert a letter: ').upper()
+print(right_letters)
 
-verify_kick_value_numeric = kick_gibbet_value.isdigit()
+while(not gybbed_user and not right_kick_word):
+    kick_user = input('Hi, please insert a word: ').upper().strip()
 
-while(verify_kick_value_numeric == True):
-    try:
-        print('Ooops... You need to insert a letter, not a number! ')
-        kick_gibbet_value = input('Please, insert a letter: ').upper()
-        verify_kick_value_numeric = kick_gibbet_value.isdigit()
-    except ValueError:
-        print('A value error is happen... Try use only one letter, never number!')
-    continue
-else:
-    while(not kick_right_word and not when_user_hanged):
-
+    if(kick_user in secret_word):
         position_letter = 0
+        for letter in secret_word:
+            if(kick_user == letter):
+                right_letters[position_letter] = letter
+            position_letter += 1
+        else:
+            errors += 1
 
-        for letter_inside_keyword in keyword_gibbet_value:
-            if(kick_gibbet_value == letter_inside_keyword.upper()):
-                letters_acerted[position_letter] = letter_inside_keyword
-            position_letter = position_letter + 1
-        print(letters_acerted)
+        gybbed_user = errors == 10
+        right_kick_word = "_" not in right_letters
+        print(right_letters)
 
-        kick_gibbet_value = input('Please, insert a letter: ').upper()
+if(right_kick_word):
+    print('Você acertou!')
+else:
+    print('Você perdeu!')

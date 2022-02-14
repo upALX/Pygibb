@@ -13,11 +13,12 @@ Regras de negocio:
 
 - O sistema deve receber os valores de chute;
 - O sistema deve receber 1 valor por vez do usuario, nao mais que isso;
-	- Caso o usuario chute dois digitos, deve retornar a informacao 
+    - Caso o usuario chute dois digitos, deve retornar a informacao 
 - O sistema deve verificar se existem espacos na entrada do valor do usuario;
-	- caso sim, retirar;
+    - caso sim, retirar;
 - O sistema deve guardar a palavra chave numa estrutura de multiplos dados, como uma lista;
 - O sistema deve comparar o dado de entrada do usuario com os dados que estao na lista da palavra chave;
-	- Caso os dados forem iguais, deve retornar um print dos dados acertados na formatacao da palavra;
+    - Caso os dados forem iguais, deve retornar um print dos dados acertados na formatacao da palavra;
 - A contagem do tamanho da palavra precisa ser dinamica, nao estatica, assim como a formatacao; 
-
+- O sistema deve informar para o usuario quantas chances ainda tem antes de perder;
+- O sistema deve finalizar o jogo quando o usuario ou for enforcado ou acertar a palavra chave;
