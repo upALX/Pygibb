@@ -17,3 +17,5 @@ This is a gibbet game developed with Python 3.
 ### How to use :open_mouth:
 
 ### Make your mark :triangular_flag_on_post:      
+
+### License :unlock:
