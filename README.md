@@ -19,3 +19,6 @@ This is a gibbet game developed with Python 3.
 ### Make your mark :triangular_flag_on_post:      
 
 ### License :unlock:
+
+
+*Developed with :purple_heart: by Alexandre*  
