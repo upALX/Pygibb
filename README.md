@@ -12,3 +12,6 @@ This is a gibbet game developed with Python 3.
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 
 ### About :book:
+
+
+### How to use :open_mouth:
