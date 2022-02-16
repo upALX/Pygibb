@@ -45,3 +45,6 @@ if(right_kick_word):
     print('Você acertou!')
 else:
     print('Você perdeu!')
+
+
+# Comentario
