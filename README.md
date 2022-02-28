@@ -12,13 +12,17 @@ This is a gibbet game developed with Python 3.
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 
 ### About :book:
-This is a game developed with python 3 in procedural programming
+This is a game gibbet developed with python 3 in procedural programming
+
+
 
 ### How to use :open_mouth:
 
 **Clone this repo**
 
-
+```
+git clone git@github.com:upALX/Pygibb.git
+```
 
 ### Make your mark :triangular_flag_on_post:      
 
