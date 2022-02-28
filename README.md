@@ -16,6 +16,10 @@ This is a game developed with python 3 in procedural programming
 
 ### How to use :open_mouth:
 
+**Clone this repo**
+
+
+
 ### Make your mark :triangular_flag_on_post:      
 
 ### License :unlock:
