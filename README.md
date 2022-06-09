@@ -22,7 +22,6 @@ This is a game gibbet developed with python 3 in procedural programming
 git clone git@github.com:upALX/Pygibb.git
 ```
 
-
 ### Make your mark :triangular_flag_on_post:      
 
 **If you have any problems with this app or have an idea that contributes, open a [issue](https://github.com/upALX/Pygibb/issues), [pull request](https://github.com/upALX/Pygibb/pulls) or find me on [Linkedin](https://www.linkedin.com/in/upalx/):D**
