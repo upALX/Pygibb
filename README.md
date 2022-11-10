@@ -19,7 +19,6 @@ This is a game gibbet developed with python 3 in procedural programming
 
 **Clone this repo**
 
-
 ```
 git clone git@github.com:upALX/Pygibb.git
 ```
