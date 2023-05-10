@@ -9,7 +9,6 @@ This is a gibbet game developed with Python 3.
 
 ---
 
-
 ## 🛠 &nbsp; Tech Stack used 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 
