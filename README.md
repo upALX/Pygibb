@@ -31,3 +31,4 @@ git clone git@github.com:upALX/Pygibb.git
 This project is under the [MIT license](https://github.com/upALX/Pygibb/blob/main/LICENSE).
 
 *Developed with :purple_heart: by Alexandre*  
+
