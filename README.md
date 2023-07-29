@@ -14,7 +14,6 @@ This is a gibbet game developed with Python 3.
 ### About :book:
 This is a game gibbet developed with python 3 in procedural programming
 
-
 ### How to use :open_mouth:
 
 **Clone this repo**
